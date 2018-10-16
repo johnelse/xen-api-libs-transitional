@@ -10,5 +10,7 @@ build: [[ "jbuilder" "build" "-p" name "-j" jobs ]]
 available: [ os = "linux" ]
 depends: [
   "jbuilder" {build}
-  "compression"
+  "forkexec"
+  "xapi-stdext-pervasives"
+  "xapi-stdext-unix"
 ]
