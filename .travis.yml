@@ -9,7 +9,7 @@ services:
 env:
     global:
         - OCAML_VERSION=4.04.2
-        - PINS="compression:. gzip:. http-svr:. pciutil:. sexpr:. sha1:. stunnel:. uuid:. xapi-libs-transitional:. xenctrlext:. xml-light2:. zstd:."
+        - PINS="gzip:. http-svr:. pciutil:. sexpr:. sha1:. stunnel:. uuid:. xapi-compression:. xapi-libs-transitional:. xenctrlext:. xml-light2:. zstd:."
         - PACKAGE=xapi-libs-transitional
         - DISTRO="debian-stable"
     matrix:
